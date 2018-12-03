@@ -3,7 +3,7 @@
 """
 Created on Thu Nov  8 15:23:31 2018
 
-@author: Sascha Froelich
+@author: Sascha Froelich (sascha.froelich@tu-dresden.de)
 """
 
 import numpy as np
