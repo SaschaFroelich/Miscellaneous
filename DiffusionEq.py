@@ -34,7 +34,7 @@ class InitConcentration():
         xder = np.diff(x) / self.stepsize   
             
         # Extrapolate continuation of derivative
-        ExtrapPoint = xder[-2] + (xder[-2]-xder[-3])
+        ExtrapPoint = xder[-1] + (xder[-1]-xder[-2])
         xder = np.concatenate((xder, ExtrapPoint), axis = None)
         
         #return xder
